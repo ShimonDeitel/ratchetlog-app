@@ -58,6 +58,6 @@ final class Store: ObservableObject {
     }
 
     static let seedData: [SetEntry] = [
-        SetEntry(title: "First Set", stage: stageOptions[0], date: Date(), note: "Tap + to add your own."),
+        SetEntry(title: "First Set", stage: SetEntry.stageOptions[0], date: Date(), note: "Tap + to add your own."),
     ]
 }
